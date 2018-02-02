@@ -1,0 +1,272 @@
+html, body {
+     margin: 0;
+     padding: 0;
+}
+ #container {
+     width: 100%;
+     background: #E8E8E8;
+     font-family: "Open Sans";
+}
+ header {
+     display: flex;
+     justify-content: space-around;
+     position: relative;
+     color: #FFF;
+     width: 100%;
+     height: 600px;
+     background: url("../img/apples.jpg"), gray;
+     background-size: cover;
+}
+ header p a {
+     color: #FFF;
+     text-decoration-line: none;
+     margin-top: 16px;
+     text-transform: uppercase;
+}
+ header nav ul {
+     display: flex;
+     justify-content: space-between;
+     width: 350px;
+     list-style: none;
+}
+ header nav a {
+     color: white;
+     text-decoration-line: none;
+     padding-bottom: 10px;
+}
+ header nav a:hover {
+     border-bottom: 2px solid #B7C8D9;
+}
+ header .bl-wh {
+     position: absolute;
+     top: 200px;
+     left: 35%;
+}
+ header .bl-wh h1 {
+     font-size: 36px;
+     letter-spacing: 6px;
+     text-transform: uppercase;
+     font-weight: normal;
+     margin: 0;
+}
+ header .bl-wh h1 span {
+     font-size: 76px;
+}
+ header .bl-wh p {
+     margin: 0;
+     text-align: center;
+     font-size: 12px;
+}
+ header .btn-read {
+     position: absolute;
+     top: 475px;
+     left: 43%;
+     width: 200px;
+     height: 50px;
+     background: rgba(0, 0, 0, 0.7);
+     border: 2px solid #FFF;
+     cursor: pointer;
+}
+ header .btn-read p{
+     padding-top: 5px;
+     text-align: center;
+     font-size: 12px;
+}
+ .lorem {
+     width: 100%;
+     height: 300px;
+     display: flex;
+     justify-content: space-around;
+     background: #FFF;
+     font-size: 14px;
+}
+ .lorem p {
+     width: 400px;
+     padding: 75px;
+}
+ .lorem p span {
+     font-weight: bold;
+}
+ #read {
+     margin-top: 100px;
+}
+ #read h3 {
+     text-align: center;
+     font-weight: normal;
+}
+ #read h3 span {
+     font-weight: bold;
+}
+ .photos {
+     margin-top: 40px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+ .photos img {
+     border: 1px solid #FFF;
+}
+ .photos .sample {
+     position: relative;
+     margin: 1%;
+}
+ .photos .sample .likes {
+     position: absolute;
+     top: 10px;
+     right: 30px;
+     width: 60px;
+     height: 30px;
+     text-align: center;
+     line-height: 30px;
+     color: #FFF;
+     background: #343638;
+     border: 2px solid #FFF;
+}
+ .photos .sample .place {
+     position: absolute;
+     bottom: 0;
+     left: 10px;
+     width: 200px;
+     height: 40px;
+     text-align: center;
+     color: #FFF;
+}
+ .photos .sample .place span {
+     font-weight: bold;
+}
+ .photos .sample .sample1:after {
+     content: "";
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 770px;
+     height: 300px;
+     background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+}
+ .photos .sample .sample2:after {
+     content: "";
+     display: block;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     width: 370px;
+     height: 300px;
+     background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+}
+ .subscribe {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin-top: 70px;
+     margin-left: 50px;
+     width: 92%;
+     height: 200px;
+     background: #FFF;
+}
+ .subscribe span {
+     font-weight: bold;
+}
+ .subscribe .subs-form {
+     display: flex;
+     justify-content: flex-end;
+}
+ .subscribe .subs-form input[type="email"] {
+     height: 40px;
+     width: 100%;
+     padding: 0 0 0 20px;
+     margin: 0 0 0 100px;
+     border: 1px solid #343638;
+     vertical-align: top;
+     color: #000;
+     background: #F3F3F3;
+}
+ .subscribe .subs-form button {
+     height: 42px;
+     width: 150px;
+     font-size: 14px;
+     background: #343638;
+     border: 1px solid #343638;
+     color: #FFF;
+     cursor: pointer;
+     vertical-align: top;
+}
+ footer {
+     display: grid;
+     width: 100%;
+     height: 30vw;
+     margin-top: 10vw;
+     background: #FFF;
+     color: #A4A4A4;
+}
+ footer .foot-text {
+     display: flex;
+     justify-content: space-around;
+     width: 85%;
+     margin-left: 7%;
+     margin-top: 8vw;
+}
+ footer .foot-text div {
+     margin-left: 2%;
+     width: 16%;
+     font-size: 14px;
+}
+ footer .foot-text div h3 {
+     color: #000;
+}
+ footer .foot-text div span {
+     font-style: italic;
+}
+ footer .foot-text div .time {
+     font-style: normal;
+     color: #F0F0F0;
+}
+ footer .foot-text .subs-form {
+     display: flex;
+     justify-content: flex-end;
+}
+ footer .foot-text .subs-form input[type="email"] {
+     height: 30px;
+     width: 100px;
+     padding: 0 0 0 20px;
+     margin: 0 0 0 100px;
+     border: 1px solid #343638;
+     vertical-align: top;
+     color: #000;
+     background: #F3F3F3;
+}
+ footer .foot-text .subs-form button {
+     height: 32px;
+     width: 200px;
+     font-size: 14px;
+     background: #343638;
+     border: 1px solid #343638;
+     color: #FFF;
+     cursor: pointer;
+     vertical-align: top;
+}
+ footer hr {
+     margin-top: 100px;
+     width: 80%;
+     height: 1px;
+}
+ footer .footer-bot {
+     display: flex;
+     justify-content: space-between;
+     font-size: 14px;
+}
+ footer .footer-bot span {
+     margin: 15px 0 0 10%;
+}
+ footer .footer-bot ul {
+     margin-right: 10%;
+     list-style: none;
+     display: flex;
+}
+ footer .footer-bot ul a {
+     font-weight: bold;
+     color: #000;
+     text-decoration: none;
+     margin-left: 20px;
+}
