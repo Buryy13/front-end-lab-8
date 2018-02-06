@@ -1,0 +1,367 @@
+html, body {
+     margin: 0;
+     padding: 0;
+}
+ @media (min-width: 900px) {
+     .container {
+         width: 100%;
+         color: #000;
+         font: 14px/1.2 Arial, Helvetica, sans-serif;
+         background: #FFF;
+    }
+     header {
+         width: 100%;
+    }
+     header .top {
+         display: flex;
+         align-items: center;
+    }
+     header .epam-logo {
+         display: flex;
+         align-items: center;
+         width: 14vw;
+         height: 7vw;
+         margin-left: 15vw;
+         padding-top: 1.5vw;
+    }
+     header nav {
+         display: flex;
+         align-items: center;
+         height: 7vw;
+    }
+     header nav ul {
+         display: flex;
+         list-style: none;
+    }
+     header nav ul li {
+         margin-left: 2vw;
+    }
+     header nav ul li a {
+         color: #464547;
+         font-weight: bold;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 1.3em;
+    }
+     header nav ul li a:hover {
+         color: #39c2d7;
+    }
+     header .banner {
+         position: relative;
+         width: 100%;
+         height: 30vw;
+         color: #FFF;
+         background: url("../img/banner.jpg");
+         background-size: cover;
+    }
+     header .banner .title-banner {
+         position: absolute;
+         top: 3vw;
+         left: 15vw;
+         width: 400px;
+         font-size: 2.8em;
+         margin: 0;
+    }
+     .news {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 1vw;
+    }
+     .news a {
+         background: #ccc;
+         text-decoration: none;
+         width: 25vw;
+         height: 23vw;
+         margin: 1vw;
+    }
+     .news a:hover {
+         background: #39c2d7;
+    }
+     .news a .picture {
+         max-width: 23vw;
+         margin: 1vw 0 0 1vw;
+    }
+     .news a h3, .news a p {
+         width: 23vw;
+         margin: .5vw 0 0 1vw;
+         color: #464547;
+    }
+     footer {
+         display: flex;
+         align-items: center;
+         width: 100%;
+         height: 5vw;
+         margin-top: 1vw;
+         font-weight: bold;
+         color: #FFF;
+         background: #39c2d7;
+    }
+     footer ul {
+         list-style: none;
+         margin-left: 8vw;
+         display: flex;
+    }
+     footer ul li {
+         margin-right: 2vw;
+    }
+     footer ul a {
+         text-decoration: underline;
+         color: #FFF;
+    }
+     footer ul a:hover {
+         text-decoration: none;
+    }
+}
+ @media (min-width: 575px) and (max-width: 899.9px) {
+     .container {
+         width: 100%;
+         color: #000;
+         font: 14px/1.2 Arial, Helvetica, sans-serif;
+         background: #FFF;
+    }
+     header {
+         width: 100%;
+    }
+     header .top {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+     header .epam-logo {
+         margin: 1vw 0 0 0;
+    }
+     header nav {
+         display: flex;
+         align-items: center;
+         margin-top: 1vw;
+         height: 7vw;
+    }
+     header nav ul {
+         display: flex;
+         list-style: none;
+    }
+     header nav ul li {
+         margin-left: 3vw;
+    }
+     header nav ul li a {
+         color: #464547;
+         font-weight: bold;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 1.3em;
+    }
+     header .banner {
+         position: relative;
+         width: 100%;
+         height: 50vw;
+         color: #FFF;
+         background: url("../img/banner.jpg") no-repeat;
+         background-size: auto;
+         background-position: center;
+    }
+     header .banner .title-banner {
+         position: absolute;
+         top: 4vw;
+         left: 20vw;
+         width: 60vw;
+         font-size: 1.5em;
+         padding: 0;
+    }
+     .news {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 1vw;
+         font-size: 1.7vw;
+    }
+     .news a {
+         background: #ccc;
+         text-decoration: none;
+         width: 45vw;
+         height: 30vw;
+         margin: 1vw;
+    }
+     .news a .block {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+     .news a .picture {
+         max-width: 35vw;
+         margin-top: 2vw;
+    }
+     .news a .articles {
+         margin-top: 1vw;
+    }
+     .news a h3, .news a p {
+         width: 43vw;
+         margin: 0;
+         margin-left: 1vw;
+         color: #464547;
+    }
+     footer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 15vw;
+         margin-top: 1vw;
+         font-weight: bold;
+         color: #FFF;
+         background: #39c2d7;
+    }
+     footer ul {
+         margin: 1vw 0 0 0;
+         list-style: none;
+         display: flex;
+    }
+     footer ul li {
+         margin-right: 3vw;
+    }
+     footer ul a {
+         text-decoration: underline;
+         color: #FFF;
+    }
+     footer ul a:hover {
+         text-decoration: none;
+    }
+     footer p {
+         margin-top: 2vw;
+    }
+}
+ @media (max-width: 574.9px) {
+     .container {
+         width: 100%;
+         color: #000;
+         font: 14px/1.2 Arial, Helvetica, sans-serif;
+         background: #FFF;
+    }
+     header {
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+    }
+     header .top {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+    }
+     header .epam-logo {
+         margin: 10px 0 0 0;
+    }
+     header nav {
+         width: 100%;
+         margin: 0;
+         padding: 0;
+    }
+     header nav ul {
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+         width: 100%;
+         padding: 0;
+         list-style: none;
+    }
+     header nav ul li {
+         width: 100%;
+         line-height: 7vw;
+         border-top: 0.3vw solid #aaa;
+         background: #ddd;
+    }
+     header nav ul li a {
+         margin-left: 5vw;
+         width: 100%;
+         height: 7vw;
+         color: #464547;
+         font-weight: bold;
+         text-decoration: none;
+         text-transform: uppercase;
+         font-size: 1.3em;
+    }
+     header .banner {
+         position: relative;
+         margin: -15px 0 0 0;
+         padding: 0;
+         width: 100%;
+         height: 60vw;
+         color: #FFF;
+         background: url("../img/banner.jpg") no-repeat;
+         background-size: auto;
+         background-position: center;
+    }
+     header .banner .title-banner {
+         position: absolute;
+         top: 45vw;
+         left: 5vw;
+         width: 85vw;
+         padding: 2vw;
+         margin: 0;
+         font-size: 4vw;
+         background: #39c2d7;
+    }
+     .news {
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         margin-top: 2vw;
+         font-size: 3.5vw;
+    }
+     .news a {
+         background: #ccc;
+         text-decoration: none;
+         width: 95vw;
+         height: 65vw;
+         margin: 2vw;
+    }
+     .news a .block {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    }
+     .news a .picture {
+         margin-top: 3vw;
+         min-width: 80vw;
+    }
+     .news a .articles {
+         margin-top: 1vw;
+    }
+     .news a h3, .news a p {
+         width: 80vw;
+         margin: 0;
+         margin-left: 1vw;
+         color: #464547;
+    }
+     footer {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 35vw;
+         margin-top: 2vw;
+         font-weight: bold;
+         color: #FFF;
+         background: #39c2d7;
+    }
+     footer ul {
+         margin: 1vw 0 0 0;
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+    }
+     footer ul li {
+         line-height: 20px;
+         margin-right: 3vw;
+    }
+     footer ul a {
+         text-decoration: underline;
+         color: #FFF;
+    }
+     footer p {
+         margin-top: 4vw;
+    }
+}
